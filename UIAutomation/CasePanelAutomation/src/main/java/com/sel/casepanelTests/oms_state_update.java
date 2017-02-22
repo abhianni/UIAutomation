@@ -315,6 +315,8 @@ public String ShortShipmentDistpatchSuborderCommand(String Suborder)
 }
 
 public String requestForShortShipmentSuborderCommand (String suborder){
-return "<requestForShortShipmentSuborderCommand><commandId>57374493-ca8b-4f25-a101-fab24de614d5</commandId><userId>1</userId><commandSource>SUBORDER</commandSource><dryRun>false</dryRun><suborderId>"+suborder+"</suborderId><weight>100.0</weight><remark>san</remark><reason>SSDE</reason></requestForShortShipmentSuborderCommand>";
-}
+		return "<requestForShortShipmentSuborderCommand><commandId>57374493-ca8b-4f25-a101-fab24de614d5</commandId><userId>1</userId><commandSource>SUBORDER</commandSource><dryRun>false</dryRun><suborderId>"
+				+ suborder
+				+ "</suborderId><weight>100.0</weight><remark>san</remark><reason>SSDE</reason></requestForShortShipmentSuborderCommand>";
+	}
 }
